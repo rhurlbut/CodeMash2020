@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <KnowledgeBase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Manifest name="CodeMash2020-Default" id="cc62ebae-3748-431e-b1df-f4220dc9003f" version="4.1.0.18" author="TwC MSEC" />
+  <Manifest name="CodeMash2020-Default" id="cc62ebae-3748-431e-b1df-f4220dc9003f" version="4.1.0.31" author="TwC MSEC" />
   <ThreatMetaData>
     <IsPriorityUsed>true</IsPriorityUsed>
     <IsStatusUsed>true</IsStatusUsed>
@@ -76,6 +76,17 @@
         <Description>Priority</Description>
         <Id>bc9c6e2a-15d0-4863-9cac-589e51e4ca1e</Id>
         <AttributeType>1</AttributeType>
+      </ThreatMetaDatum>
+      <ThreatMetaDatum>
+        <Name>c4b4ee50-01de-42e0-a14e-2164cf0f868c</Name>
+        <Label>Possible Mitigation(s)</Label>
+        <HideFromUI>false</HideFromUI>
+        <Values>
+          <Value />
+        </Values>
+        <Description>Possible Mitigation(s)</Description>
+        <Id>c4b4ee50-01de-42e0-a14e-2164cf0f868c</Id>
+        <AttributeType>2</AttributeType>
       </ThreatMetaDatum>
     </PropertiesMetaData>
   </ThreatMetaData>
@@ -749,7 +760,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Unmanaged</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -782,7 +805,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Unmanaged</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -815,7 +850,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Managed</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -848,7 +895,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Unmanaged</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -881,7 +940,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Unmanaged</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -961,7 +1032,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Managed</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1217,7 +1300,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Managed</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1250,7 +1345,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Unmanaged</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1283,7 +1390,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Unmanaged</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1316,7 +1435,19 @@
           <IsInherited>true</IsInherited>
           <Name>codeType</Name>
           <DisplayName>Code Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Unmanaged</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>002864b3-9a4e-4d21-8a4d-8aea1d2e3056</Id>
+          <IsInherited>true</IsInherited>
+          <Name>codeType</Name>
+          <DisplayName>Code Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1389,7 +1520,19 @@
           <IsInherited>true</IsInherited>
           <Name>type</Name>
           <DisplayName>Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Code</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>7063150d-2d86-451f-9a5a-bddbcfeeaf61</Id>
+          <IsInherited>true</IsInherited>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1442,7 +1585,19 @@
           <IsInherited>true</IsInherited>
           <Name>type</Name>
           <DisplayName>Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Code</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>7063150d-2d86-451f-9a5a-bddbcfeeaf61</Id>
+          <IsInherited>true</IsInherited>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1475,7 +1630,19 @@
           <IsInherited>true</IsInherited>
           <Name>type</Name>
           <DisplayName>Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Code</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>7063150d-2d86-451f-9a5a-bddbcfeeaf61</Id>
+          <IsInherited>true</IsInherited>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1508,7 +1675,19 @@
           <IsInherited>true</IsInherited>
           <Name>type</Name>
           <DisplayName>Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Human</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>7063150d-2d86-451f-9a5a-bddbcfeeaf61</Id>
+          <IsInherited>true</IsInherited>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1561,7 +1740,7 @@
           <IsInherited>true</IsInherited>
           <Name>authenticatesItself</Name>
           <DisplayName>Authenticates Itself</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1573,7 +1752,31 @@
           <IsInherited>true</IsInherited>
           <Name>type</Name>
           <DisplayName>Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Code</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>612d2805-2ebb-4374-a727-b9735c2042e2</Id>
+          <IsInherited>true</IsInherited>
+          <Name>authenticatesItself</Name>
+          <DisplayName>Authenticates Itself</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Not Applicable</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>7063150d-2d86-451f-9a5a-bddbcfeeaf61</Id>
+          <IsInherited>true</IsInherited>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1606,7 +1809,7 @@
           <IsInherited>true</IsInherited>
           <Name>authenticatesItself</Name>
           <DisplayName>Authenticates Itself</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1618,7 +1821,31 @@
           <IsInherited>true</IsInherited>
           <Name>type</Name>
           <DisplayName>Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Code</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>612d2805-2ebb-4374-a727-b9735c2042e2</Id>
+          <IsInherited>true</IsInherited>
+          <Name>authenticatesItself</Name>
+          <DisplayName>Authenticates Itself</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Not Applicable</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>7063150d-2d86-451f-9a5a-bddbcfeeaf61</Id>
+          <IsInherited>true</IsInherited>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1651,7 +1878,7 @@
           <IsInherited>true</IsInherited>
           <Name>authenticatesItself</Name>
           <DisplayName>Authenticates Itself</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1663,7 +1890,31 @@
           <IsInherited>true</IsInherited>
           <Name>type</Name>
           <DisplayName>Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Code</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>612d2805-2ebb-4374-a727-b9735c2042e2</Id>
+          <IsInherited>true</IsInherited>
+          <Name>authenticatesItself</Name>
+          <DisplayName>Authenticates Itself</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Not Applicable</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>7063150d-2d86-451f-9a5a-bddbcfeeaf61</Id>
+          <IsInherited>true</IsInherited>
+          <Name>type</Name>
+          <DisplayName>Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1716,7 +1967,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>SQL Relational Database</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1749,7 +2012,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Non Relational Database</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1800,7 +2075,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>File System</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1833,7 +2120,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Registry</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1866,7 +2165,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Configuration</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1899,7 +2210,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Cache</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1932,7 +2255,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>HTML5 Storage</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -1978,7 +2313,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Cookie</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2128,7 +2475,19 @@
           <IsInherited>true</IsInherited>
           <Name>storeType</Name>
           <DisplayName>Store Type</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Device</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>410d2cd6-bb9b-4879-8f7b-2eb8b4f81278</Id>
+          <IsInherited>true</IsInherited>
+          <Name>storeType</Name>
+          <DisplayName>Store Type</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2259,7 +2618,7 @@
           <IsInherited>true</IsInherited>
           <Name>authenticatesSource</Name>
           <DisplayName>Source Authenticated</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2271,7 +2630,7 @@
           <IsInherited>true</IsInherited>
           <Name>authenticatesDestination</Name>
           <DisplayName>Destination Authenticated</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2283,7 +2642,7 @@
           <IsInherited>true</IsInherited>
           <Name>providesConfidentiality</Name>
           <DisplayName>Provides Confidentiality</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2295,7 +2654,55 @@
           <IsInherited>true</IsInherited>
           <Name>providesIntegrity</Name>
           <DisplayName>Provides Integrity</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>acf22ea0-2787-483b-990c-d33b49a7462a</Id>
+          <IsInherited>true</IsInherited>
+          <Name>authenticatesSource</Name>
+          <DisplayName>Source Authenticated</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>652420e4-3fa3-4919-9fd5-7e6857e158cd</Id>
+          <IsInherited>true</IsInherited>
+          <Name>authenticatesDestination</Name>
+          <DisplayName>Destination Authenticated</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>d0761239-e412-4135-bd66-91d8ed0039a9</Id>
+          <IsInherited>true</IsInherited>
+          <Name>providesConfidentiality</Name>
+          <DisplayName>Provides Confidentiality</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>No</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>916aae7a-7a45-4b22-b7dc-0b1ca8c49e60</Id>
+          <IsInherited>true</IsInherited>
+          <Name>providesIntegrity</Name>
+          <DisplayName>Provides Integrity</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2328,7 +2735,7 @@
           <IsInherited>true</IsInherited>
           <Name>authenticatesDestination</Name>
           <DisplayName>Destination Authenticated</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2340,7 +2747,7 @@
           <IsInherited>true</IsInherited>
           <Name>providesConfidentiality</Name>
           <DisplayName>Provides Confidentiality</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2352,7 +2759,43 @@
           <IsInherited>true</IsInherited>
           <Name>providesIntegrity</Name>
           <DisplayName>Provides Integrity</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>652420e4-3fa3-4919-9fd5-7e6857e158cd</Id>
+          <IsInherited>true</IsInherited>
+          <Name>authenticatesDestination</Name>
+          <DisplayName>Destination Authenticated</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>d0761239-e412-4135-bd66-91d8ed0039a9</Id>
+          <IsInherited>true</IsInherited>
+          <Name>providesConfidentiality</Name>
+          <DisplayName>Provides Confidentiality</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>916aae7a-7a45-4b22-b7dc-0b1ca8c49e60</Id>
+          <IsInherited>true</IsInherited>
+          <Name>providesIntegrity</Name>
+          <DisplayName>Provides Integrity</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2405,7 +2848,7 @@
           <IsInherited>true</IsInherited>
           <Name>authenticatesSource</Name>
           <DisplayName>Source Authenticated</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2417,7 +2860,7 @@
           <IsInherited>true</IsInherited>
           <Name>authenticatesDestination</Name>
           <DisplayName>Destination Authenticated</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2429,7 +2872,7 @@
           <IsInherited>true</IsInherited>
           <Name>providesConfidentiality</Name>
           <DisplayName>Provides Confidentiality</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2441,7 +2884,55 @@
           <IsInherited>true</IsInherited>
           <Name>providesIntegrity</Name>
           <DisplayName>Provides Integrity</DisplayName>
-          <Mode>Static</Mode>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>acf22ea0-2787-483b-990c-d33b49a7462a</Id>
+          <IsInherited>true</IsInherited>
+          <Name>authenticatesSource</Name>
+          <DisplayName>Source Authenticated</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>652420e4-3fa3-4919-9fd5-7e6857e158cd</Id>
+          <IsInherited>true</IsInherited>
+          <Name>authenticatesDestination</Name>
+          <DisplayName>Destination Authenticated</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>d0761239-e412-4135-bd66-91d8ed0039a9</Id>
+          <IsInherited>true</IsInherited>
+          <Name>providesConfidentiality</Name>
+          <DisplayName>Provides Confidentiality</DisplayName>
+          <Mode>Dynamic</Mode>
+          <Type>List</Type>
+          <Inheritance>Virtual</Inheritance>
+          <AttributeValues>
+            <Value>Yes</Value>
+          </AttributeValues>
+        </Attribute>
+        <Attribute>
+          <Id>916aae7a-7a45-4b22-b7dc-0b1ca8c49e60</Id>
+          <IsInherited>true</IsInherited>
+          <Name>providesIntegrity</Name>
+          <DisplayName>Provides Integrity</DisplayName>
+          <Mode>Dynamic</Mode>
           <Type>List</Type>
           <Inheritance>Virtual</Inheritance>
           <AttributeValues>
@@ -2742,6 +3233,24 @@
           </AttributeValues>
         </Attribute>
       </Attributes>
+      <StencilConstraints>
+        <StencilConstraint>
+          <SelectedStencilType>Any</SelectedStencilType>
+          <SelectedStencilConnection>Any</SelectedStencilConnection>
+        </StencilConstraint>
+      </StencilConstraints>
+    </ElementType>
+    <ElementType>
+      <Name>Amazon Web Services Trust Boundary</Name>
+      <ID>b4b56a48-e3eb-4a3e-a8cf-6ffb83e920a1</ID>
+      <Description>A border representation of an Amazon Web Services  trust boundary.</Description>
+      <ParentElement>GE.TB.B</ParentElement>
+      <Image>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAABGSURBVDhPY/hPIWBQ9Ev6z2jqDccPnr0ESxArzoDMAeEDZy+DFRIrDjeAVDCcDIDyyQajgTioAhGEQekdHx+bGIUGeP8HAJ4fIfJijo6MAAAAAElFTkSuQmCC</Image>
+      <Hidden>false</Hidden>
+      <Representation>BorderBoundary</Representation>
+      <StrokeThickness>0</StrokeThickness>
+      <ImageLocation>Before label</ImageLocation>
+      <Attributes />
       <StencilConstraints>
         <StencilConstraint>
           <SelectedStencilType>Any</SelectedStencilType>
@@ -4818,6 +5327,61 @@
           <Description>Priority</Description>
           <Id>bc9c6e2a-15d0-4863-9cac-589e51e4ca1e</Id>
           <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+      </PropertiesMetaData>
+    </ThreatType>
+    <ThreatType>
+      <GenerationFilters>
+        <Include>target is '9ceaf039-e05f-461d-8da6-c0ca4802978d'</Include>
+        <Exclude />
+      </GenerationFilters>
+      <Id>830e1798-fda0-48ba-9e11-66cf947bd89a</Id>
+      <ShortTitle>AWS S3 Bucket Insufficient Access Control </ShortTitle>
+      <Category>E</Category>
+      <RelatedCategory />
+      <Description>AWS S3 buckets could be compromised because of insufficent access control. </Description>
+      <PropertiesMetaData>
+        <ThreatMetaDatum>
+          <Name>UserThreatShortDescription</Name>
+          <Label>Short Description</Label>
+          <HideFromUI>true</HideFromUI>
+          <Values>
+            <Value xsi:nil="true" />
+          </Values>
+          <Id>5d3b996b-aed5-4d95-8cf6-617bb67bf042</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>UserThreatDescription</Name>
+          <Label>Description</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>AWS S3 buckets could be compromised because of insufficent access control. </Value>
+          </Values>
+          <Id>cf377f97-9dea-42d6-ae63-b097c4a8ec4d</Id>
+          <AttributeType>0</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>Priority</Name>
+          <Label>Priority</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>High</Value>
+          </Values>
+          <Description>Priority</Description>
+          <Id>bc9c6e2a-15d0-4863-9cac-589e51e4ca1e</Id>
+          <AttributeType>1</AttributeType>
+        </ThreatMetaDatum>
+        <ThreatMetaDatum>
+          <Name>c4b4ee50-01de-42e0-a14e-2164cf0f868c</Name>
+          <Label>Possible Mitigation(s)</Label>
+          <HideFromUI>false</HideFromUI>
+          <Values>
+            <Value>S3 buckets become public when any permissions are granted to the predefined groups AuthenticatedUsers or AllUsers. Refer: &lt;a href="https://expel.io/blog/find-amazon-s3-bucket-misconfigurations-fix-them"&gt;https://expel.io/blog/find-amazon-s3-bucket-misconfigurations-fix-them&lt;/a&gt; </Value>
+          </Values>
+          <Description>Possible Mitigation(s)</Description>
+          <Id>c4b4ee50-01de-42e0-a14e-2164cf0f868c</Id>
+          <AttributeType>2</AttributeType>
         </ThreatMetaDatum>
       </PropertiesMetaData>
     </ThreatType>
